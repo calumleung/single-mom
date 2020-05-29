@@ -3,15 +3,15 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<meta name="keywords" content="請放七個關鍵字並用半形逗點分隔">
-		<meta name="description" content="請放約40全形字網站介紹">
-		<meta property="og:title" content="臉書分享標題">
-		<meta property="og:type" content="website" />
-		<meta property="og:url" content="網址" />
-		<meta property="og:image" content="臉書預覽圖連結" />
-		<meta property="og:locale" content="zh_TW" />
-		<meta property="og:description" content="臉書分享描述">
-<title>單親媽媽的日常戰爭，你能體會嗎？</title>
+<meta name="keywords" content="請放七個關鍵字並用半形逗點分隔">
+<meta name="description" content="請放約40全形字網站介紹">
+<meta property="og:title" content="那一年，我成為了一名單親媽媽">
+<meta property="og:type" content="website" />
+<meta property="og:url" content="網址" />
+<meta property="og:image" content="臉書預覽圖連結" />
+<meta property="og:locale" content="zh_TW" />
+<meta property="og:description" content="臉書分享描述">
+<title>那一年，我成為了一名單親媽媽</title>
 <link rel="icon" href="./favicon.png" sizes="any" type="image/png">
 
 <!-- Font Awesome Icons -->
@@ -26,7 +26,7 @@
 
 <!-- Theme CSS - Includes Bootstrap -->
 <link href="css/creative.min.css" rel="stylesheet">
-	
+
 <!-- GA -->
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-101940430-7"></script>
@@ -37,15 +37,13 @@
 
   gtag('config', 'UA-101940430-7');
 </script>
-
-	
 </head>
 
 <body id="page-top">
 
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
-  <div class="container"> <a class="navbar-brand js-scroll-trigger" href="#page-top">單親媽媽的日常戰爭，你能體會嗎？</a>
+  <div class="container"> <a class="navbar-brand js-scroll-trigger" href="#page-top">單親媽媽的日常戰爭？</a>
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto my-2 my-lg-0">
@@ -59,8 +57,8 @@
 </nav>
 <!--progressbar-->
 <div class="progress-container">
-    <div class="progress-bar" id="myBar"></div>
-	</div>
+  <div class="progress-bar" id="myBar"></div>
+</div>
 
 <!-- Masthead -->
 <header class="masthead">
@@ -90,21 +88,39 @@
   </div>
 </section>
 <section class="page-section bg-white" id="test">
-<div class="container">
-      <h2 class="text-center mt-0">你了解單親媽媽的苦嗎？</h2>
-      <hr class="divider my-4">
+  <div class="container">
+    <h2 class="text-center mt-0">你了解單親媽媽的苦嗎？</h2>
+    <hr class="divider my-4">
+    <div class="article jumper">
+      <p>問題1：你知道台灣多數單親家庭的平均月收入為何？</p>
+      <p class="jumps">
+        <button id="a1-1" class="answer" onclick="wronganswer()">未滿17280元</button>
+        <button id="a1-2" class="answer" onclick="correctanswer()">17,280元～未滿3萬元</button>
+        <button id="a1-3" class="answer">3萬～未滿5萬元</button>
+        <button id="a1-4" class="answer">5萬～未滿7萬元</button>
+      </p>
+    </div>
+    <div class="article">
+      <p id="q1">答錯了！台灣的單親家庭平均月收入落在17280~3萬元之間</p>
+      <p id="q1-cd">答對了！根據衛福部統計，全台近26萬的單親家庭中，有約42%的家庭月收入介於17280元到三萬元。</p>
+      <p>試想一個家庭所需的基本開銷，房租、水電等等大約15000/月，就佔了近一半的收入，而撫養一個孩子的所需費用包含通勤、飲食、學費與生活開銷等等，更何況一位單親媽媽/爸爸需同時撫養多為子女與同住父母，經濟壓力可想而知。</p>
+      <p>(試想：一位單親媽媽，如何帶著兩名幼童在臺北生活？她可能先面臨產後中斷職涯，導致謀職困難，背後若又無強健的支持系統，保母托兒，奶粉尿布，蝸居頂加，機車代步，即便食衣住行事事皆以最省為原則，還是動輒五六萬，台北居，每天都是一場退無可退的資本戰。)</p>
+    </div>
+  </div>
   <div class="article jumper">
-    <p>你知道台灣多數單親家庭的平均月收入為何？</p>
-    <p class="jumps"><button id="a1" class="answer" onclick="wronganswer()">未滿17280元</button><button id="a2" class="answer" onclick="correctanswer()">17,280元～未滿3萬元</button><button id="a3" class="answer">3萬～未滿5萬元</button><button id="a4" class="answer">5萬～未滿7萬元</button></p>
+    <p>問題2：你知道單親媽媽在面對收入壓力的同時，找工作時會碰到什麼難題嗎？</p>
+    <p class="jumps">
+      <button id="a2-1" class="answer" onclick="wronganswer()">年齡、已婚身分</button>
+      <button id="a2-2" class="answer" onclick="correctanswer()">生育過後重返職場遭上司拒絕</button>
+      <button id="a2-3" class="answer">上班時數一周需56小時</button>
+      <button id="a2-4" class="answer">以上皆是</button>
+    </p>
   </div>
   <div class="article">
-    <p id="q1">國際法對於難民的定義，法源依據最著名的是 1951 年《難民地位公約》及其 1967 年議定書。難民公約規定，當人們面臨因為種族、宗教、國籍、屬於某社會團體或政治見解而被自己國籍國迫害的風險，各國應當保護尋求幫助的人，如果把這些人遣返，他們人身安全可能會受到不利對待的話，地主國有義務不將他們遣送回國。 </p>
-    <p id="q1-cd">敘利亞內戰導致這個國家超過1000萬人口流離失所，在湧入歐洲的難民潮中，敘利亞難民最多，也最為人熟知。而戰火不休的阿富汗，是世界上產生難民最多的國家。</p>
-    <p id="q1-b">不過，在許多鮮為人知的非洲國家，同樣湧現大量難民。根據聯合國難民署，來自厄立特里亞（Eritrea）的難民潮是非洲最曠日持久的難民問題之一，也是乘船前往義大利的第二大群體，僅次於敘利亞。厄立特里亞政府有最鐵腕的領導人，是世界上最具鎮壓性的政府之一，常被比作「非洲的朝鮮」。</p>
-    <p id="q1-a">另一個非洲國家尼日利亞（Nigeria），則飽受伊斯蘭教原教旨主義組織「博科聖地」帶來的暴力摧殘。截止到今年1月，尼日利亞及周邊國家，有1070萬人需要人道救援。</p>
-    <p>在前往歐洲的難民逃亡路線中，從北非橫渡地中海到義大利的海上非法移民路徑，是所有非法移民路徑中死亡率最高的一條。根據聯合國難民署2016 年5月的數字，23人就有1人死在海上。</p>
+    <p id="q2-1"> A：現今職場上，依舊存在就業年齡歧視，百貨公司招募電梯服務員，限25歲以下；某些超商招募員工也限未婚女士；對於大多平均年齡高於40歲的單親媽媽(爸爸)來說是找工作的一大阻礙。 </p>
+    <p>B：據104人力銀行調查統計，15至64歲已婚女性，有86萬7千人曾因生育而離職，而單親媽媽在僅有她一人能撫養孩子的情況下，更可能在生育期做出暫離職場的決定，然而重返職場所需面對的挑戰更多，包括前述的年齡、已婚、已生育等限制，都成為單親家庭找尋工作的絆腳石。</p>
+    <p>C：據衛福部資料統計，高達91.55%的子女需由單親父(母)撫養，因此單親媽媽需花大量心力照顧孩子，沒辦法做工時太長的工作，更要在孩子放學時間按時接送、張羅晚餐，使得工作選項受限，常需在照顧孩子與經濟壓力之間做取捨。</p>
   </div>
-</div>
 </section>
 <!--以下暫時隱藏-->
 <div hidden> 
