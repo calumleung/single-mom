@@ -43,6 +43,23 @@
 	box-sizing: border-box
 }
 
+/* The progress container */
+.progress-container {
+  width: 100%;
+  height: 8px;
+  background: #ff6666;
+  position: fixed;
+  z-index: 3000;
+}
+
+/* The progress bar*/
+.progress-bar {
+  height: 8px;
+  background: #ff6666;
+  z-index: 3000;
+  width: 0%;
+}
+
 .jumper {
 	padding: 1rem;
 }
@@ -63,7 +80,7 @@
 	display: flex;
 }
 
-.jumps a {
+.jumps button {
 	/*width: 100%;
 	margin: .5rem 0;*/
 	align-items: center;
@@ -80,7 +97,20 @@
 	text-decoration: none;
 }
 
-.jumps a:hover {
+@media (max-width:768px) {
+
+.article.jumper{
+	border: solid #000;
+	margin: 2em 1em;
+}
+
+.jumps button  {
+	width: 70%;
+	margin: .5em 0;
+}
+}
+
+.jumps button:hover {
 	background: #b3b3b3;
 	text-decoration: none;
 	color: currentColor; /*font-color*/

@@ -3,9 +3,15 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="description" content="">
-<meta name="author" content="">
-<title>大標題</title>
+		<meta name="keywords" content="請放七個關鍵字並用半形逗點分隔">
+		<meta name="description" content="請放約40全形字網站介紹">
+		<meta property="og:title" content="臉書分享標題">
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="網址" />
+		<meta property="og:image" content="臉書預覽圖連結" />
+		<meta property="og:locale" content="zh_TW" />
+		<meta property="og:description" content="臉書分享描述">
+<title>單親媽媽的日常戰爭，你能體會嗎？</title>
 <link rel="icon" href="./favicon.png" sizes="any" type="image/png">
 
 <!-- Font Awesome Icons -->
@@ -20,24 +26,41 @@
 
 <!-- Theme CSS - Includes Bootstrap -->
 <link href="css/creative.min.css" rel="stylesheet">
+	
+<!-- GA -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-101940430-7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-101940430-7');
+</script>
+
+	
 </head>
 
 <body id="page-top">
 
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
-  <div class="container"> <a class="navbar-brand js-scroll-trigger" href="#page-top">單親媽媽的日常戰爭，你能體會嗎?</a>
+  <div class="container"> <a class="navbar-brand js-scroll-trigger" href="#page-top">單親媽媽的日常戰爭，你能體會嗎？</a>
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto my-2 my-lg-0">
         <li class="nav-item"> <a class="nav-link js-scroll-trigger" href="#page-top">主頁</a> </li>
-        <li class="nav-item"> <a class="nav-link js-scroll-trigger" href="#about">你了解單親媽媽的苦嗎?</a> </li>
+        <li class="nav-item"> <a class="nav-link js-scroll-trigger" href="#about">你了解單親媽媽的苦嗎？</a> </li>
         <li class="nav-item"> <a class="nav-link js-scroll-trigger" href="#services">媽媽們的心裡話</a> </li>
         <li class="nav-item"> <a class="nav-link js-scroll-trigger" href="#portfolio">製作團隊</a> </li>
       </ul>
     </div>
   </div>
 </nav>
+<!--progressbar-->
+<div class="progress-container">
+    <div class="progress-bar" id="myBar"></div>
+	</div>
 
 <!-- Masthead -->
 <header class="masthead">
@@ -67,9 +90,12 @@
   </div>
 </section>
 <section class="page-section bg-white" id="test">
+<div class="container">
+      <h2 class="text-center mt-0">你了解單親媽媽的苦嗎？</h2>
+      <hr class="divider my-4">
   <div class="article jumper">
-    <p>你的國家發生動亂，家園盡毀，你被迫長途跋涉，顛沛流離。在路上，你聽人說交一筆錢給人蛇就能搭上去歐洲的偷渡船，在那裏你有可能獲得安居的自由，心動了嗎？那麼，先下定決心你要從哪裏出發吧。</p>
-    <p class="jumps"><a href="#q1-a" data-jump-to="#q1-a">尼日利亞</a><a href="#q1-b" data-jump-to="#q1-b">厄立特里亞</a><a href="#q1-cd" data-jump-to="#q1-cd">敘利亞</a><a href="#q1-cd" data-jump-to="#q1-cd">阿富汗</a><a href="#q1" data-jump-to="#q1">以上國家我不了解，難以決定</a></p>
+    <p>你知道台灣多數單親家庭的平均月收入為何？</p>
+    <p class="jumps"><button id="a1" class="answer" onclick="wronganswer()">未滿17280元</button><button id="a2" class="answer" onclick="correctanswer()">17,280元～未滿3萬元</button><button id="a3" class="answer">3萬～未滿5萬元</button><button id="a4" class="answer">5萬～未滿7萬元</button></p>
   </div>
   <div class="article">
     <p id="q1">國際法對於難民的定義，法源依據最著名的是 1951 年《難民地位公約》及其 1967 年議定書。難民公約規定，當人們面臨因為種族、宗教、國籍、屬於某社會團體或政治見解而被自己國籍國迫害的風險，各國應當保護尋求幫助的人，如果把這些人遣返，他們人身安全可能會受到不利對待的話，地主國有義務不將他們遣送回國。 </p>
@@ -78,6 +104,7 @@
     <p id="q1-a">另一個非洲國家尼日利亞（Nigeria），則飽受伊斯蘭教原教旨主義組織「博科聖地」帶來的暴力摧殘。截止到今年1月，尼日利亞及周邊國家，有1070萬人需要人道救援。</p>
     <p>在前往歐洲的難民逃亡路線中，從北非橫渡地中海到義大利的海上非法移民路徑，是所有非法移民路徑中死亡率最高的一條。根據聯合國難民署2016 年5月的數字，23人就有1人死在海上。</p>
   </div>
+</div>
 </section>
 <!--以下暫時隱藏-->
 <div hidden> 
