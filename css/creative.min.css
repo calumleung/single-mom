@@ -609,14 +609,8 @@ pre code {
 }
 }
 
-@media (min-width:992px) {
-#mainNav .container{
-	max-width: 992px
-}
-}
-
 @media (min-width:1200px) {
-#mainNav .container {
+.container {
 	max-width: 1200px
 }
 
