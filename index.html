@@ -43,7 +43,7 @@
 
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
-  <div class="container"> <a class="navbar-brand js-scroll-trigger" href="#page-top">單親媽媽的日常戰爭？</a>
+  <div class="container"> <a class="navbar-brand js-scroll-trigger" href="#page-top">單親媽媽的日常戰爭，你能體會嗎？</a>
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto my-2 my-lg-0">
@@ -69,7 +69,7 @@
         <hr class="divider my-4">
       </div>
       <div class="col-lg-8 align-self-baseline">
-        <p class="text-white-75 font-weight-light mb-5">小引言小引言小引言小引言小引言小引言小引言小引言小引言小引言小引言小引言小引言小引言小引言小引言小引言小引言小引言小引言小引言小引言</p>
+        <p class="text-white-75 font-weight-light mb-5">據行政院性別平等會107年統計，全台單親家庭戶數達830,683戶，占全台9%。</p>
         <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">點我往下閱讀</a> </div>
     </div>
   </div>
@@ -94,17 +94,17 @@
     <div class="article jumper">
       <p>問題1：你知道台灣多數單親家庭的平均月收入為何？</p>
       <p class="jumps">
-        <button id="a1-1" class="answer" onclick="wronganswer()">未滿17280元</button>
-        <button id="a1-2" class="answer" onclick="correctanswer()">17,280元～未滿3萬元</button>
-        <button id="a1-3" class="answer">3萬～未滿5萬元</button>
-        <button id="a1-4" class="answer">5萬～未滿7萬元</button>
+        <button id="a1-1" class="answer" onclick="wronganswer()">未滿1萬9,047元</button>
+        <button id="a1-2" class="answer" onclick="correctanswer()"> 1萬9,047 元~未滿 3 萬元</button>
+        <button id="a1-3" class="answer">3 萬~未滿 4 萬元</button>
+        <button id="a1-4" class="answer">5 萬以上</button>
       </p>
     </div>
     <div class="article">
-      <p id="q1">答錯了！台灣的單親家庭平均月收入落在17280~3萬元之間</p>
-      <p id="q1-cd">答對了！根據衛福部統計，全台近26萬的單親家庭中，有約42%的家庭月收入介於17280元到三萬元。</p>
+      <p id="ans1-a">答錯了！台灣的單親家庭平均月收入比例最多落在17280~3萬元之間。此外，超過六成的單親家庭每月都有債務需要償還，單親家長工作收入低再加身負債務，加上每月生活開銷，高達近七成（65.8%）家庭生活入不敷出，三成免強維持收支平衡。</p>
+      <p id="ans1-b">答對了！根據衛福部統計，全台近26萬的單親家庭中，有約42%的家庭月收入介於17280元到三萬元。</p>
       <p>試想一個家庭所需的基本開銷，房租、水電等等大約15000/月，就佔了近一半的收入，而撫養一個孩子的所需費用包含通勤、飲食、學費與生活開銷等等，更何況一位單親媽媽/爸爸需同時撫養多為子女與同住父母，經濟壓力可想而知。</p>
-      <p>(試想：一位單親媽媽，如何帶著兩名幼童在臺北生活？她可能先面臨產後中斷職涯，導致謀職困難，背後若又無強健的支持系統，保母托兒，奶粉尿布，蝸居頂加，機車代步，即便食衣住行事事皆以最省為原則，還是動輒五六萬，台北居，每天都是一場退無可退的資本戰。)</p>
+      <p>（試想：一位單親媽媽，如何帶著兩名幼童在臺北生活？她可能先面臨產後中斷職涯，導致謀職困難，背後若又無強健的支持系統，保母托兒，奶粉尿布，蝸居頂加，機車代步，即便食衣住行事事皆以最省為原則，還是動輒五六萬，台北居，每天都是一場退無可退的資本戰。）</p>
     </div>
   </div>
   <div class="article jumper">
@@ -117,119 +117,35 @@
     </p>
   </div>
   <div class="article">
-    <p id="q2-1"> A：現今職場上，依舊存在就業年齡歧視，<a href="xxx.com" target="_blank">百貨公司</a>招募電梯服務員，限25歲以下；某些超商招募員工也限未婚女士；對於大多平均年齡高於40歲的單親媽媽(爸爸)來說是找工作的一大阻礙。 </p>
+    <p class="hidden"> A：現今職場上，依舊存在就業年齡歧視，<a href="xxx.com" target="_blank">百貨公司</a>招募電梯服務員，限25歲以下；某些超商招募員工也限未婚女士；對於大多平均年齡高於40歲的單親媽媽(爸爸)來說是找工作的一大阻礙。 </p>
     <p>B：據104人力銀行調查統計，15至64歲已婚女性，有86萬7千人曾因生育而離職，而單親媽媽在僅有她一人能撫養孩子的情況下，更可能在生育期做出暫離職場的決定，然而重返職場所需面對的挑戰更多，包括前述的年齡、已婚、已生育等限制，都成為單親家庭找尋工作的絆腳石。</p>
     <p>C：據衛福部資料統計，高達91.55%的子女需由單親父(母)撫養，因此單親媽媽需花大量心力照顧孩子，沒辦法做工時太長的工作，更要在孩子放學時間按時接送、張羅晚餐，使得工作選項受限，常需在照顧孩子與經濟壓力之間做取捨。</p>
   </div>
+  <div class="container" style="">
+    <div class="row" >
+      <div class="col-sm-12">
+        <div class="list-group" id="list-tab" role="tablist" style="flex-direction:row;"> <a class="list-group-item list-group-item-action choice" data-toggle="list" href="#ans-1-a" role="tab" aria-controls="home"><b style="color: #fff">未滿1萬9,047元</b></a> <a class="list-group-item list-group-item-action choice" data-toggle="list" href="#ans-1-b" role="tab" aria-controls="profile"><b style="color: #fff">1萬9,047 元~未滿 3 萬元</b></a><a class="list-group-item list-group-item-action choice" data-toggle="list" href="#ans-1-a" role="tab" aria-controls="profile"><b style="color: #fff">上班時數一周需56小時</b></a><a class="list-group-item list-group-item-action choice" data-toggle="list" href="#ans-1-a" role="tab" aria-controls="profile"><b style="color: #fff">上班時數一周需56小時</b></a></div>
+      </div>
+    </div>
+    <div class="row" style="padding-top: 2em">
+      <div class="col-sm-12">
+        <div class="tab-content" id="nav-tabContent">
+          <div class="tab-pane fade show active" id="ans-1-a" role="tabpanel" aria-labelledby="ans-1-a">
+            <p>答錯了！台灣的單親家庭平均月收入比例最多落在17280~3萬元之間。</p>
+			<p>此外，超過六成的單親家庭每月都有債務需要償還，單親家長工作收入低再加身負債務，加上每月生活開銷，高達近七成（65.8%）家庭生活入不敷出，三成免強維持收支平衡。</p>
+			<p>此外，超過六成的單親家庭每月都有債務需要償還，單親家長工作收入低再加身負債務，加上每月生活開銷，高達近七成（65.8%）家庭生活入不敷出，三成免強維持收支平衡。</p>
+          </div>
+          <div class="tab-pane fade" id="ans-1-b" role="tabpanel" aria-labelledby="list-profile-list">
+            <p>答對了！根據兒童福利聯盟統計，全台近26萬的單親家庭中，有約41.8%的家庭月收入介於19,047元到三萬元。</p>
+			<p>此外，超過六成的單親家庭每月都有債務需要償還，單親家長工作收入低再加身負債務，加上每月生活開銷，高達近七成（65.8%）家庭生活入不敷出，三成免強維持收支平衡。</p>
+			<p>此外，超過六成的單親家庭每月都有債務需要償還，單親家長工作收入低再加身負債務，加上每月生活開銷，高達近七成（65.8%）家庭生活入不敷出，三成免強維持收支平衡。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
-<!--以下暫時隱藏-->
-<div hidden> 
-  <!-- Services Section -->
-  <section class="page-section" id="services">
-    <div class="container">
-      <h2 class="text-center mt-0">At Your Service</h2>
-      <hr class="divider my-4">
-      <div class="row">
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="mt-5"> <i class="fas fa-4x fa-gem text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Sturdy Themes</h3>
-            <p class="text-muted mb-0">Our themes are updated regularly to keep them bug free!</p>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="mt-5"> <i class="fas fa-4x fa-laptop-code text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Up to Date</h3>
-            <p class="text-muted mb-0">All dependencies are kept current to keep things fresh.</p>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="mt-5"> <i class="fas fa-4x fa-globe text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Ready to Publish</h3>
-            <p class="text-muted mb-0">You can use this design as is, or you can make changes!</p>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="mt-5"> <i class="fas fa-4x fa-heart text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Made with Love</h3>
-            <p class="text-muted mb-0">Is it really open source if it's not made with love?</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  
-  <!-- Portfolio Section -->
-  <section id="portfolio">
-    <div class="container-fluid p-0">
-      <div class="row no-gutters">
-        <div class="col-lg-4 col-sm-6"> <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg"> <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt="">
-          <div class="portfolio-box-caption">
-            <div class="project-category text-white-50"> Category </div>
-            <div class="project-name"> Project Name </div>
-          </div>
-          </a> </div>
-        <div class="col-lg-4 col-sm-6"> <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg"> <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="">
-          <div class="portfolio-box-caption">
-            <div class="project-category text-white-50"> Category </div>
-            <div class="project-name"> Project Name </div>
-          </div>
-          </a> </div>
-        <div class="col-lg-4 col-sm-6"> <a class="portfolio-box" href="img/portfolio/fullsize/3.jpg"> <img class="img-fluid" src="img/portfolio/thumbnails/3.jpg" alt="">
-          <div class="portfolio-box-caption">
-            <div class="project-category text-white-50"> Category </div>
-            <div class="project-name"> Project Name </div>
-          </div>
-          </a> </div>
-        <div class="col-lg-4 col-sm-6"> <a class="portfolio-box" href="img/portfolio/fullsize/4.jpg"> <img class="img-fluid" src="img/portfolio/thumbnails/4.jpg" alt="">
-          <div class="portfolio-box-caption">
-            <div class="project-category text-white-50"> Category </div>
-            <div class="project-name"> Project Name </div>
-          </div>
-          </a> </div>
-        <div class="col-lg-4 col-sm-6"> <a class="portfolio-box" href="img/portfolio/fullsize/5.jpg"> <img class="img-fluid" src="img/portfolio/thumbnails/5.jpg" alt="">
-          <div class="portfolio-box-caption">
-            <div class="project-category text-white-50"> Category </div>
-            <div class="project-name"> Project Name </div>
-          </div>
-          </a> </div>
-        <div class="col-lg-4 col-sm-6"> <a class="portfolio-box" href="img/portfolio/fullsize/6.jpg"> <img class="img-fluid" src="img/portfolio/thumbnails/6.jpg" alt="">
-          <div class="portfolio-box-caption p-3">
-            <div class="project-category text-white-50"> Category </div>
-            <div class="project-name"> Project Name </div>
-          </div>
-          </a> </div>
-      </div>
-    </div>
-  </section>
-  
-  <!-- Call to Action Section -->
-  <section class="page-section bg-dark text-white">
-    <div class="container text-center">
-      <h2 class="mb-4">Free Download at Start Bootstrap!</h2>
-      <a class="btn btn-light btn-xl" href="https://startbootstrap.com/themes/creative/">Download Now!</a> </div>
-  </section>
-  
-  <!-- Contact Section -->
-  <section class="page-section" id="contact">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-lg-8 text-center">
-          <h2 class="mt-0">Let's Get In Touch!</h2>
-          <hr class="divider my-4">
-          <p class="text-muted mb-5">Ready to start your next project with us? Give us a call or send us an email and we will get back to you as soon as possible!</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0"> <i class="fas fa-phone fa-3x mb-3 text-muted"></i>
-          <div>+1 (202) 555-0149</div>
-        </div>
-        <div class="col-lg-4 mr-auto text-center"> <i class="fas fa-envelope fa-3x mb-3 text-muted"></i> 
-          <!-- Make sure to change the email address in anchor text AND the link below! --> 
-          <a class="d-block" href="mailto:contact@yourwebsite.com">contact@yourwebsite.com</a> </div>
-      </div>
-    </div>
-  </section>
-</div>
+
 <!-- Footer -->
 <footer class="bg-light py-5">
   <div class="container">

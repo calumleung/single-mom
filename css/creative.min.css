@@ -43,6 +43,19 @@
 	box-sizing: border-box
 }
 
+/*QA Section*/
+
+.list-group-item.list-group-item-action.choice{
+	background-color: #3c3c3c;
+	border-color:#3c3c3c;
+	min-width: 120px;
+	width: 70%;
+	margin: .5em .5em;
+	font-size: 16px;
+	
+}
+
+
 /* The progress container */
 .progress-container {
   width: 100%;
