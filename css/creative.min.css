@@ -446,7 +446,8 @@ template {
 	font-size: 2rem
 }
 .h3, h3 {
-	font-size: 1.75rem
+	font-size: 1.75rem;
+	padding: .5rem 0rem;
 }
 .h4, h4 {
 	font-size: 1.5rem
@@ -604,15 +605,21 @@ pre code {
 
 @media (min-width:992px) {
 .container {
-	max-width: 960px
+	max-width: 720px
+}
+}
+
+@media (min-width:992px) {
+#mainNav .container{
+	max-width: 992px
 }
 }
 
 @media (min-width:1200px) {
-.container {
-	max-width: 1140px
+#mainNav .container {
+	max-width: 1200px
 }
-}
+
 .container-fluid {
 	width: 100%;
 	padding-right: 15px;
