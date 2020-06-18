@@ -56,6 +56,36 @@
 }
 
 
+
+#qa .list-group {
+	flex-wrap: wrap;
+	margin: 0;
+	justify-content: space-between;
+	display: flex;
+}
+
+#qa .list-group button {
+	align-items: center;
+	flex-grow: 1;
+	background: #3c3c3c;
+	border-radius: 2px;
+	color: white; 
+	padding: 2rem;
+	margin: .5rem;
+	width: calc(50% - 1em);
+	transition: all .3s ease-in-out;
+	justify-content: center;
+	text-align: center;
+	text-decoration: none;
+}
+
+#qa .list-group button:hover {
+	background: #AE4951;
+	text-decoration: none;
+	color: white; 
+}
+
+
 /* The progress container */
 .progress-container {
   width: 100%;
@@ -581,22 +611,14 @@ pre code {
 
 @media (min-width:992px) {
 .container {
-<<<<<<< HEAD
-	max-width: 720px
-=======
 	max-width: 960px
->>>>>>> parent of cad1eef... updated QA css
 }
 }
 
 @media (min-width:1200px) {
 .container {
-<<<<<<< HEAD
-	max-width: 1200px
-=======
 	max-width: 1140px
 }
->>>>>>> parent of cad1eef... updated QA css
 }
 .container-fluid {
 	width: 100%;
