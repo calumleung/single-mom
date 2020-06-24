@@ -120,7 +120,7 @@
 	flex-grow: 1;
 	background: #3c3c3c;
 	color: white; 
-	padding: 1.5rem;
+	padding: 1rem;
 	margin: .5rem;
 	width: calc(50% - 1em);
 	transition: all .3s ease-in-out;
@@ -179,6 +179,7 @@
 
 
 #story .content.list-group button {
+	padding: 2rem;
 	align-items: center;
 	flex-grow: 1;
 	transition: all .3s ease-in-out;
