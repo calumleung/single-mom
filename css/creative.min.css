@@ -182,7 +182,6 @@
 	text-align: inherit;
 }
 
-
 #story .content.list-group button {
 	padding: 2rem;
 	align-items: center;
@@ -206,6 +205,11 @@
 		padding: 0;
 		font-size: 16px;
 	}
+}
+
+.story {
+	background: #A67F78;
+	padding: 2rem;
 }
 
 /*#story .content.list-group button:hover {
