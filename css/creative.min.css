@@ -106,7 +106,6 @@
 	width: 70%;
 	margin: .5em .5em;
 	font-size: 16px;
-	
 }
 
 #qa .content.list-group {
@@ -135,6 +134,13 @@
 	background: #AE4951;
 	text-decoration: none;
 	color: white; 
+}
+
+@media (max-width:768px) {
+	#qa .content.list-group button {
+	width: 100%;
+	border-radius: 40px;
+	}
 }
 
 /*Story Section*/
