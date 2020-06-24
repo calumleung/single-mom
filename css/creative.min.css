@@ -93,21 +93,24 @@
 
 /*Story Section*/
 .people {
-	width:200px;
-    height: 200px;
+	width:150px;
+    height: 150px;
 	opacity: 0.7;
 	transition: all 0s ease 0s;
+	border-color:#3c3c3c;
 }
 
 .people.pic{
-	width: 100%;
-	height: 100%;
+	width: 70%;
+	height: 70%;
 	object-fit: contain;
 }
 
 .people img{
 	border-radius: 50%;
 	height: 100%;
+	width: 100%;
+	border: 5px #3c3c3c solid;
 	
 }
 
@@ -118,36 +121,33 @@
 	display: flex;
 }
 
-#story .content.list-group-item.list-group-item-action.choice{
-	background-color: #3c3c3c;
-	border-color:#3c3c3c;
-	min-width: 120px;
-	width: 100%;
-	margin: .5em .5em;
-	font-size: 16px;	
+#story .list-group-item-action {
+	width: 1rem;
+	color: #495057;
+	text-align: inherit
 }
+
 
 #story .content.list-group button {
 	align-items: center;
-	flex-grow: 1;
-	background: #3c3c3c;
 	border-radius: 50%;
-	color: white; 
+	flex-grow: 1;
 	padding: 2rem;
 	margin: .5rem;
-	height: 100%;
-	width: 100%;
 	transition: all .3s ease-in-out;
-	justify-content: center;
-	text-align: center;
-	text-decoration: none;
+	border: none
 }
 
-#story .content.list-group button:hover {
-	background: #AE4951;
+#story .list-group-item.active{
+	background-color: transparent;
+}
+
+/*#story .content.list-group button:hover {
+	border: 1px #AE4951 solid;
+	border-radius: 50%;
 	text-decoration: none;
 	color: white; 
-}
+}*/
 
 
 /* The progress container */
