@@ -191,6 +191,11 @@
 }
 
 @media (max-width: 576px){
+	
+#story .content.list-group button {
+	padding: 1rem;
+}
+
 #story .aboutpeople {
 		margin: 0;
 		padding: 0;
