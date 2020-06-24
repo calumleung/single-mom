@@ -180,7 +180,6 @@
 
 #story .content.list-group button {
 	align-items: center;
-	border-radius: 50%;
 	flex-grow: 1;
 	transition: all .3s ease-in-out;
 	border: none
@@ -188,6 +187,14 @@
 
 #story .list-group-item.active{
 	background-color: transparent;
+}
+
+@media (max-width: 576px){
+#story .aboutpeople {
+		margin: 0;
+		padding: 0;
+		font-size: 16px;
+	}
 }
 
 /*#story .content.list-group button:hover {
