@@ -406,13 +406,14 @@ sup {
 	top: -.5em
 }
 a {
-	color: #fff2e6;
+	color: #AE4951;
 	text-decoration: none;
-	background-color: transparent
+	background-color: transparent;
+	font-weight: 300;
 }
 a:hover {
-	color: #d6370c;
-	text-decoration: underline
+	color: #A67F78;
+	/*text-decoration: underline*/
 }
 a:not([href]):not([tabindex]) {
 	color: inherit;
