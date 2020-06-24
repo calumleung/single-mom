@@ -136,6 +136,12 @@
 	color: white; 
 }
 
+.qa {
+	border: 3px solid;
+	padding: 1rem;
+	margin: 1rem;
+}
+
 @media (max-width:768px) {
 	#qa .content.list-group button {
 	width: 100%;
