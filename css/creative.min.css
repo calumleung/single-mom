@@ -147,8 +147,6 @@
 }
 
 .people.pic{
-	width: 70%;
-	height: 70%;
 	object-fit: contain;
 }
 
@@ -170,7 +168,7 @@
 #story .list-group-item-action {
 	width: 1rem;
 	color: #495057;
-	text-align: inherit
+	text-align: inherit;
 }
 
 
@@ -178,8 +176,6 @@
 	align-items: center;
 	border-radius: 50%;
 	flex-grow: 1;
-	padding: 2rem;
-	margin: .5rem;
 	transition: all .3s ease-in-out;
 	border: none
 }
