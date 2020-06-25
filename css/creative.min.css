@@ -43,6 +43,15 @@
 	box-sizing: border-box
 }
 
+.source {
+	font-size: 14px;
+	
+}
+
+.source a{
+	
+}
+
 /*downarrow*/
 .arrows {
 	width: 60px;
