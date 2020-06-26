@@ -103,6 +103,12 @@
 #team p {
 	align-content: center;
 	text-align: center;
+	font-size: 16px;
+}
+
+.member p{
+	align-content: center;
+	text-align: center;
 	line-height: 1;
 }
 
